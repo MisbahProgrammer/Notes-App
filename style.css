@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(135deg, #cf9aff , #95c0ff);
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.container h1{
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px;
+}
+.add{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+    background: linear-gradient(#9418fd,#571094);
+}
+.input-box{
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    margin: 20px 0 ;
+    padding: 20px;
+    position: relative;
+}
+.input-box .delete{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    outline: none;
+    /* bottom: 1%; */
+    top: 1%;
+    right: 1%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgb(220, 215, 215);
+}
